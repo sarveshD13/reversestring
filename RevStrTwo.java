@@ -3,7 +3,8 @@ package StringPrograms;
 public class ReverseString {
 	
 	public static void main(String[] args) {
-		System.out.println("SARVESH");
+		System.out.println("Original String : SARVESH");
+		System.out.print("Reverse String : ");
 		reverseString("SARVESH");
 	}
 	
@@ -14,4 +15,5 @@ public class ReverseString {
 		}
 	}
 }
+
 

@@ -1,29 +1,17 @@
 package StringPrograms;
 
-public class RevStrTwo {
-	
+public class ReverseString {
 	
 	public static void main(String[] args) {
-
 		System.out.println("SARVESH");
-
-		ReverseSTring("Sarvesh");
-
+		reverseString("SARVESH");
 	}
-
 	
-
-	public static void ReverseSTring(String a1) {
-
-		char[] c=a1.toCharArray();
-
-		for(int i =c.length-1;i>=0;i--) {
-
-			System.out.print(c[i]);
-
+	public static void reverseString(String name) {
+		char[] characters=name.toCharArray();
+		for(int i =characters.length-1;i>=0;i--) {
+			System.out.print(characters[i]);
 		}
-
-	
-
 	}
 }
+

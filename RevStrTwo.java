@@ -10,10 +10,11 @@ public class ReverseString {
 	
 	public static void reverseString(String name) {
 		char[] characters=name.toCharArray();
-		for(int i =characters.length-1;i>=0;i--) {
+		for(int index =characters.length-1;index>=0;index--) {
 			System.out.print(characters[i]);
 		}
 	}
 }
+
 
 
